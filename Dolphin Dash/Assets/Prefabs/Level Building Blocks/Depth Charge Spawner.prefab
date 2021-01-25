@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &209469993470194133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209469993470193962}
+  - component: {fileID: 6012110408962229251}
+  m_Layer: 0
+  m_Name: Depth Charge Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209469993470193962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209469993470194133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9055086969605374863}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6012110408962229251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209469993470194133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7041447f0bef0c945a4c1ff5a2630bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+--- !u!1001 &209469993841659725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 209469993470193962}
+    m_Modifications:
+    - target: {fileID: 8558606489047117754, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_Name
+      value: Depth Charge
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+--- !u!4 &9055086969605374863 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9169907485217246402, guid: 8611c54328d81dd48a8bd6bbd905cbff, type: 3}
+  m_PrefabInstance: {fileID: 209469993841659725}
+  m_PrefabAsset: {fileID: 0}

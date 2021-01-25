@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8133078341455821488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8133078341455821491}
+  - component: {fileID: 8631108916515620541}
+  - component: {fileID: 2342412473698128732}
+  - component: {fileID: 4432652044273319965}
+  - component: {fileID: 4691832057944892302}
+  - component: {fileID: 7092388877059488426}
+  m_Layer: 0
+  m_Name: BIG Rock
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8133078341455821491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3429, y: 1.3996, z: 1}
+  m_Children:
+  - {fileID: 8133078340929962504}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8631108916515620541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 0.27, z: 2}
+  m_Center: {x: 1.05, y: 0.13, z: -0.95}
+--- !u!65 &2342412473698128732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9, y: 0.46, z: 1.9}
+  m_Center: {x: 1.05, y: 0.51, z: -0.95}
+--- !u!65 &4432652044273319965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.22, z: 1.5}
+  m_Center: {x: 0.99, y: 0.93, z: -0.95}
+--- !u!114 &4691832057944892302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b0949e2662a1a4db16147d59e9c7e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7092388877059488426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8133078341455821488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 0.1, z: 0.94}
+  m_Center: {x: 0.99, y: 1.1, z: -0.95}
+--- !u!1001 &9024137523757009958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8133078341455821491}
+    m_Modifications:
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453245396749871, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_Name
+      value: BIG Rock Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453246254847217, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453246254847219, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000453246254847220, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+--- !u!4 &8133078340929962504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1000453245396749870, guid: 39abded9519c87748ab866784ba91b69, type: 3}
+  m_PrefabInstance: {fileID: 9024137523757009958}
+  m_PrefabAsset: {fileID: 0}
